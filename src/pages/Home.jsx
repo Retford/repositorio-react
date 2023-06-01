@@ -51,7 +51,7 @@ const Home = () => {
         </div>
         <div className='flex justify-center items-center relative h-full'>
           <img
-            src='/img/profile.jpg'
+            src='img/profile.jpg'
             width='290'
             alt='profile'
             className='rounded-xl md:w-96 animate-pulse'
