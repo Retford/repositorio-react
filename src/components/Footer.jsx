@@ -2,7 +2,7 @@ import { BsGithub, BsInstagram, BsLinkedin, BsTwitter } from 'react-icons/bs';
 
 const Footer = () => {
   return (
-    <footer className='text-center text-white'>
+    <footer className='text-center text-black bg-white'>
       <p className='hover:text-sky-500 pt-5'>
         Diseñado &amp; Desarrollado por Franzua Antezano
       </p>

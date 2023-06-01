@@ -47,8 +47,7 @@ const Projects = () => {
   return (
     <>
       <h3
-        id='proyectos'
-        className='text-3xl text-white my-5 px-12 font-bold tracking-widest text-center'
+        className='text-3xl text-white my-16 px-12 font-bold tracking-widest text-center'
       >
         Mis Proyectos Semanales
       </h3>

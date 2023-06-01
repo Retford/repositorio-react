@@ -5,7 +5,7 @@ import Projects from './Projects';
 const Home = () => {
   return (
     <>
-      <section className='my-0 flex flex-col lg:flex-row justify-evenly'>
+      <section className='mb-10 md:my-10 flex flex-col lg:flex-row justify-center items-center'>
         <div className='p-10 lg:w-[65%] lg:self-center'>
           <h1
             id='me'
@@ -19,10 +19,11 @@ const Home = () => {
           <p className='text-3xl font-bold text-slate-500 '>
             Desarrollador FrontEnd
           </p>
-          <p className='mt-5 text-lg text-white'>
-            Soy ingeniero de Sistemas que se especializa en el desarrollo
-            FronEnd en aplicacioens web. Actualmente, estoy enfocado en crear
-            proyectos para aprender más acerca de este mundo del desarrollo web
+          <p className='mt-5 text-lg text-white lg:w-3/4'>
+            Soy estudiante de noveno semestre de la Facultad de Ingeniería de
+            Sistemas que se especializa en el desarrollo FronEnd en aplicacioens
+            web. Actualmente, estoy enfocado en crear proyectos para aprender
+            más acerca de este mundo del desarrollo web
           </p>
           {/* REDES SOCIALES */}
           <div className='py-6 flex justify-evenly text-white lg:justify-start lg:gap-8'>
@@ -39,21 +40,21 @@ const Home = () => {
               <BsGithub />
             </a>
           </div>
-          <div className='flex justify-center mt-1 mb-6 lg:justify-start'>
+          <div className='flex justify-center my-6 lg:justify-start animate-bounce'>
             <a
               href='#'
-              className='rounded bg-white p-4 text-black hover:bg-transparent hover:text-white hover:border-white hover:border-2 hover:transition-colors'
+              className='rounded bg-white p-4 text-black hover:bg-transparent hover:text-white hover:outline-none hover:outline-white hover:transition-colors'
             >
               Descargar CV
             </a>
           </div>
         </div>
-        <div className='flex justify-center items-center'>
+        <div className='flex justify-center items-center relative h-full'>
           <img
             src='/img/profile.jpg'
             width='290'
             alt='profile'
-            className='rounded-xl md:w-80'
+            className='rounded-xl md:w-96 animate-pulse'
           />
         </div>
       </section>

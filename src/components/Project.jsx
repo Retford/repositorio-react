@@ -3,7 +3,7 @@ import { FaRegEye } from 'react-icons/fa';
 
 const Project = ({ nSemana, descripcion, linkGitHub, linkView, imgUrl }) => {
   return (
-    <div className='border-1 rounded-lg bg-white dark:bg-slate-800 m-5'>
+    <div className='border-1 rounded-lg bg-white m-5 hover:animate-subida'>
       <div className='m-2'>
         <img
           src={imgUrl}
@@ -17,7 +17,7 @@ const Project = ({ nSemana, descripcion, linkGitHub, linkView, imgUrl }) => {
               {descripcion}
             </span>
           </div>
-          <div className='text-xl text-slate-600 dark:text-slate-200 pr-2 flex flex-nowrap gap-4'>
+          <div className='text-xl text-slate-600 pr-2 flex flex-nowrap gap-4'>
             <a href={linkGitHub}>
               <BsGithub />
             </a>
