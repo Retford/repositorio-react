@@ -10,8 +10,8 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/projects' element={<Projects />} />
+        <Route path='/repositorio-react' element={<Home />} />
+        <Route path='/repositorio-react/projects' element={<Projects />} />
       </Routes>
       <Footer />
     </Router>

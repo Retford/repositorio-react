@@ -7,10 +7,10 @@ const Header = () => {
         <nav>
           <ul className='md:flex md:justify-center md:items-center md:gap-10 text-3xl text-black p-5 pr-10 font-mono hidden'>
             <li className='hover:text-sky-500 duration-500'>
-              <Link to='/'>Inicio</Link>
+              <Link to='/repositorio-react'>Inicio</Link>
             </li>
             <li className='hover:text-sky-500 duration-500'>
-              <Link to='/projects'>Proyectos</Link>
+              <Link to='/repositorio-react/projects'>Proyectos</Link>
             </li>
           </ul>
         </nav>
