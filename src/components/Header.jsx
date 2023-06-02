@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <>
-      <header className='bg-white md:sticky md:top-0 md:z-50 md:opacity-90'>
+      <header className='bg-white sticky top-0 z-50 opacity-90'>
         <nav>
-          <ul className='md:flex md:justify-center md:items-center md:gap-10 text-3xl text-black p-5 pr-10 font-mono hidden'>
+          <ul className='flex justify-center items-center gap-10 md:text-3xl text-black p-5 pr-10 font-mono text-base'>
             <li className='hover:text-sky-500 duration-500'>
               <Link to='/repositorio-react/'>Inicio</Link>
             </li>
